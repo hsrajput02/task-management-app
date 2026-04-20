@@ -1,0 +1,160 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f8;
+}
+
+/* MAIN CONTAINER */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+/* TITLE */
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* FORM BOX */
+.form-container {
+  width: 60%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* FORM INPUTS */
+form {
+  display: flex;
+  gap: 10px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #2d6cdf;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* VIEW BUTTON */
+.view-btn {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.view-btn:hover {
+  background: #444;
+}
+
+/* TASK LIST TITLE */
+.task-container {
+  width: 60%;
+}
+
+.task-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TASK CARD */
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #efeded;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 0.5px solid #cccbcb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* LEFT */
+.task-left h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.task-left p {
+  color: #666;
+  margin-top: 5px;
+}
+
+/* RIGHT */
+.task-right {
+  text-align: right;
+}
+
+.date {
+  font-size: 14px;
+  color: #777;
+}
+
+/* STATUS */
+.status {
+  display: inline-block;
+  margin: 8px 0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.status.Pending {
+  background: #f4d35e;
+}
+
+.status.Completed {
+  background: #4caf50;
+  color: white;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 10px;
+}
+
+.complete-btn {
+  background: #2d6cdf;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* HOVER EFFECT */
+button:hover {
+  opacity: 0.9;
+}
