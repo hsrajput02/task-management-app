@@ -1,5 +1,4 @@
-﻿# task-management-app
-# Task Management System (MERN Stack)
+﻿# Task Management System (MERN Stack)
 
 ## Project Title
 
